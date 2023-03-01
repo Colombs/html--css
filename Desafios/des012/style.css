@@ -7,10 +7,6 @@
     margin: 0px;
 }
 
-body {
-    height: 9000px;
-}
-
 header {
     background-color: black;
     height: 30vw;
@@ -37,19 +33,24 @@ header > p {
     font-size: 1.2em;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-#primeira-caixa {
+.preto {
     width: 100%;
-    margin: 18vw 0;
+    margin: 12vw 0;
+}
+
+.preto > p {
+    color: black;
+    margin-top: 8vw;
 }
 
 .paragrafo {
@@ -59,25 +60,43 @@ header a:hover {
     line-height: 2em;
 }
 
-#primeira-caixa > p {  
-    color: black;
+#joaninha {
+    background-image: url('imagens/background001.jpg');
 }
 
-#segunda-caixa {
+#livro {
+    background-image: url('imagens/background002.jpg');
+}
+
+.branco {
     display: flex;
     align-items: center;
-    background-image: url('imagens/background001.jpg'); 
     background-position: right center;
     background-attachment: fixed;
     width: 100%;
-    height: 65vw;
+    height: 69vw;
     margin: 18vw 0;
 }
 
-#segunda-caixa > p {
+.branco > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.555);
     padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+
+footer > p {
+    color: white;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 
